@@ -9,12 +9,19 @@ namespace DecimaleBinario
         {
             Console.WriteLine("Inserisci un numero: ");
             int n = int.Parse(Console.ReadLine());
-            Console.WriteLine("Conversione in Binario/Ottale/Esadecimale ?");
-            string risposta = Console.ReadLine();
+            
             try
             {
+                int risultato;
+                Console.WriteLine("Conversione in Binario/Ottale/Esadecimale ?");
+                string risposta = Console.ReadLine();
+                if (risposta == "Binario")
+                {
+                    risultato = Conversioni.Binario(n);
+                }
 
-            }catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
