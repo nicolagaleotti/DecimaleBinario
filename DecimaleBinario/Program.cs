@@ -6,7 +6,9 @@ namespace DecimaleBinario
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int n = 10;
+            Console.WriteLine($"Il numero binario è {Convert.ToString(n, 2)}");
+            Console.ReadLine();
         }
     }
 }
