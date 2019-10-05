@@ -8,7 +8,7 @@ namespace DecimaleBinario
         {
             Console.WriteLine("Inserisci un numero: ");
             int n = int.Parse(Console.ReadLine());
-            Console.WriteLine($"Il numero binario è {Convert.ToString(n, 2)}");
+            Console.WriteLine($"Il numero binario è {Convert.ToString(n, 2)}.");
             Console.ReadLine();
         }
     }
