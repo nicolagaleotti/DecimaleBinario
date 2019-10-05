@@ -11,6 +11,13 @@ namespace DecimaleBinario
             int n = int.Parse(Console.ReadLine());
             Console.WriteLine("Conversione in Binario/Ottale/Esadecimale ?");
             string risposta = Console.ReadLine();
+            try
+            {
+
+            }catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }
