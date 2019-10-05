@@ -1,4 +1,5 @@
 ﻿using System;
+using LibreriaConversioni;
 
 namespace DecimaleBinario
 {
@@ -8,8 +9,8 @@ namespace DecimaleBinario
         {
             Console.WriteLine("Inserisci un numero: ");
             int n = int.Parse(Console.ReadLine());
-            Console.WriteLine($"Il numero binario è {Convert.ToString(n, 2)}.");
-            Console.ReadLine();
+            Console.WriteLine("Conversione in Binario/Ottale/Esadecimale ?");
+            string risposta = Console.ReadLine();
         }
     }
 }
